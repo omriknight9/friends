@@ -1,4 +1,4 @@
-﻿let gallery = [];
+let gallery = [];
 let videos = [];
 
 $(document).ready(function (event) {
@@ -157,6 +157,11 @@ function buildEvents(wrapper, arr, num) {
                 let playPauseWrapper = $('<div>', {
                     class: 'playPauseWrapper',
                 }).appendTo(eventWrapper);
+
+                let videoTitle = $('<h2>', {
+                    class: 'videoTitle',
+                    text: friends[i].name
+                }).appendTo(playPauseWrapper);
         
                 let playVideoBtn = $('<img>', {
                     class: 'playVideoBtn',
@@ -187,7 +192,6 @@ function buildEvents(wrapper, arr, num) {
         
                 let video = $('<video>', {
                     class: 'video',
-                    id: friends[i].name,
                     src: './videos' + friends[i].video,
                     click: function () {
                         if ($(this).parent().attr('googleMap') !== undefined) {
