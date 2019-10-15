@@ -1,0 +1,9 @@
+﻿
+{
+    "gallery" : [
+	{ "name": "Wedding", "place": "טרויה", "map": "http://bit.ly/35BIPM6",  "image": "/wedding.jpg", "type": "desktop"},
+	{ "name": "Malia", "place": "Malia", "map": "http://bit.ly/2MJpv7e",  "image": "/malia.jpg", "type": "mobile"},
+	{ "name": "New Zealand", "place": "New Zealand", "map": "http://bit.ly/2IU0tRL",  "image": "/newZealand.jpg", "type": "desktop"},
+	{ "name": "Camp 23", "place": "Camp 23", "map": "http://bit.ly/32jQE78",  "image": "/camp23.jpg", "type": "desktop"}
+    ]
+}

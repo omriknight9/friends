@@ -1,0 +1,58 @@
+﻿<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Friends</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="description" content="Friends">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="icon" href="images/friends.png">
+        <link href="https://fonts.googleapis.com/css?family=David+Libre&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+<body>
+    <header>
+        <div class="headerContainer">
+            <div class="header">
+                <div class="imgWrapper">                 
+                    <h1>Friends</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="spinnerWrapper">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+                <div class="bounce4"></div>
+            </div>
+        </div>
+        <div class="container" id="galleryContainer"></div>
+        <div class="container" id="videoContainer"></div>
+    </main>
+
+    <img src="images/upBtn2.png" alt="up arrow" class="goToTopBtn" onclick="goToTop()" />
+
+    <!----------------POPUPS---------------->
+
+    <div id="eventDetails" class="popUpInfo">
+        <div class="popupCont">
+            <div class="popupContent"></div>
+            <div class="Xbtn"></div>
+            <h2 class="eventNamePop"></h2>
+            <p class="eventPlacePop"></p>
+            <div class="mapWrapper">
+                <p class="mapPlace"></p>
+                <a href="#" class="eventMapPop" target="_blank"></a>
+            </div>
+            <div class="popupBtnsWrapper">
+                <button class="popupBtn" id="" onclick="closeCurrentPopup($(this))">Close</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

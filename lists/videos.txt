@@ -1,0 +1,9 @@
+﻿
+{
+    "videos" : [
+        { "name": "משוגעים", "place": "ביטוח לאומי", "video": "/morons.mp4", "map": "http://bit.ly/2BgcyMW", "group": 1.1, "type": "desktop"},
+        { "name": "סוכת המוזות", "place": "קניון חולון", "video": "/suka.mp4", "map": "http://bit.ly/31ePeJJ", "group": 1.2, "type": "desktop"},
+        { "name": "הקליפ", "place": "ביה''ס קוגל", "video": "/song.mp4", "map": "http://bit.ly/2nLCjBq",  "group": 1.3, "type": "desktop"},
+        { "name": "אני שלד", "place": "ת''א", "video": "/skeleton.mp4", "map": "http://bit.ly/2nLCjBq",  "group": 1.3, "type": "mobile"}
+    ]
+}
