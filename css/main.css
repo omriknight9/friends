@@ -194,6 +194,10 @@ h2 {
     height: 250px;
 }
 
+.videoTitle {
+    font-size: 2rem;
+}
+
 .videoWrapper {
     display: flex;
     box-sizing: border-box;
@@ -206,7 +210,6 @@ h2 {
 }
 
 .videoContainer {
-    /* width: 40%; */
     position: relative;
     margin: 4rem;
 }
@@ -235,6 +238,7 @@ h2 {
     border-radius: 5px;
     cursor: pointer;
     width: 100%;
+    margin-top: 5rem;
 }
 
 .playVideoBtn {
